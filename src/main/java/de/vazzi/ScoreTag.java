@@ -18,7 +18,7 @@ public class ScoreTag extends PluginBase {
 
     @Override
     public void onEnable() {
-        saveConfig();
+        saveDefaultConfig();
         PreTag = getConfig().getString("display-tag", "&c%health% &7| &a%food% &7| &e%ping%")
                 .replaceAll("&", "§");
         getServer().getScheduler().scheduleRepeatingTask(new UpdateTask(), 10);
