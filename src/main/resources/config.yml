@@ -1,0 +1,8 @@
+# ScoreTag Configuration
+
+# Available Tags:
+# %health% - players health/players maxhealth, example: 16/20
+# %health% - players food, example: 19/20
+# %ping& - players ping, example: 8ms
+
+display-tag: "&c%health% &7| &a%food% &7| &e%ping%"
